@@ -22,7 +22,7 @@ CHANGE URL WITHOUT CREATING A NEW OBJECT:
 $src = $foo->getSource("URL_HERE");
 
 GET EMAIL LIST IF YOU SET EMAIL SCRAPING TO TRUE:
-# $foo->parseHTML($src,'email'));
+$foo->parseHTML($src,'email'));
 
 DUMP ANY ERRORS:
 $foo->getErrors());
