@@ -5,7 +5,7 @@ Web Crawler - with email/link scraping and proxy support
 
 
 USAGE:
-$foo = new crawler('FULL_URL_HERE','BASE_URL',DPETH,GET_EMAILS,STAY_ON_SAME_DOMAIN);
+$foo = new crawler('FULL_URL_HERE','BASE_URL',DEPTH,GET_EMAILS,STAY_ON_SAME_DOMAIN);
 
 EXAMPLE: 
 $foo = new crawler('http://bostonherald.com/about/contact','bostonherald.com',2,true,true);
